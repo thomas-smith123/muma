@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/10/21 11:50:30。
+     1>项目“D:\1304\1304\1304\1304.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\1304.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         F:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 1304.cpp
+         1304.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+     1>d:\1304\1304\1304\1304.cpp(96): warning C4996: '_pgmptr': This function or variable may be unsafe. Consider using _get_pgmptr instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft visual studio 10.0\vc\include\stdlib.h(303) : 参见“_pgmptr”的声明
+     1>d:\1304\1304\1304\1304.cpp(117): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\microsoft visual studio 10.0\vc\include\stdlib.h(791) : 参见“_splitpath”的声明
+     1>d:\1304\1304\1304\1304.cpp(160): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\1304\1304\1304\1304.cpp(161): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>d:\1304\1304\1304\1304.cpp(163): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+       Link:
+         F:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1304\1304\Debug\1304.exe" /NOLOGO /MANIFEST /ManifestFile:"Debug\1304.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\1304\1304\Debug\1304.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1304\1304\Debug\1304.lib" /MACHINE:X86 Debug\1304.obj
+         LINK : 没有找到 D:\1304\1304\Debug\1304.exe 或上一个增量链接没有生成它；正在执行完全链接
+         1304.vcxproj -> D:\1304\1304\Debug\1304.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\1304\1304\Debug\1304.exe;#1" /manifest Debug\1304.exe.intermediate.manifest "F:\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Debug\1304.unsuccessfulbuild”。
+         正在对“Debug\1304.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\1304\1304\1304\1304.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.87
